@@ -1,0 +1,28 @@
+{
+	"dataSources" : {
+		"default" : {
+			"dataSource" : "MySQL",
+			"host" : "127.0.0.1",
+			"port" : 3306,
+			"user" : "root",
+			"password" : "ckdr35251665",
+			"database" : "tasks"
+		},
+		"test" : {
+			"dataSource" : "MySQL",
+			"host" : "localhost",
+			"port" : 3306,
+			"user" : "root",
+			"password" : "",
+			"database" : "mydatabasetest"
+		}
+	},
+	"email" : {
+		"service" : "gmail",
+		"from" : "rodrigobpzabtunes2016@gmail.com",
+		"host" : "smpt",
+		"port" : 587,
+		"username" : "myaccount",
+		"password" : "mypassword"
+	}
+}
